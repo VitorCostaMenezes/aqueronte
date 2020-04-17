@@ -1,0 +1,610 @@
+body{
+	background: #000000 url(../imagens/f1.jpg);
+	background-attachment: fixed;
+	height: 100%;
+	font-family: "Van-Helsing";
+	letter-spacing: 2px;
+	font-size: 1.1em;
+
+}
+
+
+
+
+
+/* FONTES */
+
+   @font-face {
+      font-family: "Black Clover";
+      src: url("../fontes/Black-Clover-Font.woff");
+    }
+
+
+    @font-face {
+      font-family: "Black Window";
+      src: url("../fontes/Black-Window.woff");
+    }
+
+
+      @font-face {
+      font-family: "Van-Helsing";
+      src: url("../fontes/Van-Helsing.woff");
+    }
+
+
+
+
+
+
+
+/* -----------------------------------    MENU   ------------------------------------  */
+
+
+.cor-fundo-header	{
+	background: rgba(0, 0, 0, 0.5);
+
+}
+
+#nav-principal ul li a  {
+	color:#ffffff;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+#nav-principal ul li a:hover  {
+	color:#000000;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 3px;
+	display: inline-block;
+}
+
+
+
+
+#logo-ti {
+	color: #ffffff;
+	font-size: 25px;
+	margin-left: 20px;
+	letter-spacing: 1px;
+	font-family: "Black Window";
+}
+
+
+	#logo-ti-rodape {
+		font-size: 30px;
+		margin-left: 10px;
+		letter-spacing: 4px;
+	}
+
+
+
+ .navbar-toggler {
+	border-color: #fff;
+	
+}
+
+
+/* -----------------------------------   FOTOS  da galeria  ------------------------------------  */
+
+
+
+ #nav-principal ul li a.ativo {
+	color:#000000;
+	background: rgba(255, 255, 255, 0.6);
+	border-radius: 3px;
+	display: inline-block;
+
+}
+
+
+ #galeria img {
+ 	width: 100%;
+ 	height: 432px;
+ 	border-radius: 10px;
+
+ }
+
+#galeria div img {
+	 margin-top: 20px;
+	 border: 5px outset rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+/* ------------------------------- botões ----------------------------------------------- */
+
+
+div a.cor.text-light:hover {
+    color: #000000!important;
+}
+
+.btnsize{
+	width: 25px;
+}
+
+
+
+/* ------------------------------- formatações gerais ----------------------------------------------- */
+
+.opac{
+
+	opacity: 0.6;
+
+}
+
+
+#logobranco img{
+	width: 100%;
+	border-radius: 50px;
+	margin-top: 15px;
+	max-height: 350px;
+	
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------------- coluna fotos ----------------------------------------------- */
+
+ #fotos img {
+ 	width: 100%;
+ 	height: 300px;
+ }
+
+
+
+
+       div.foto-instagram  iframe {
+ 
+          width: 100%;
+          height: 500px;
+     }
+
+
+
+
+/* ------------------------------- footer ----------------------------------------------- */
+
+
+footer h4 {
+	color: #ffffff;
+}
+
+
+    span#final{
+      color: #ffffff;
+      display: block;
+      text-align: center;
+      font-style: italic;
+      font-size: 15px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+
+      span#final-superior{
+      color: #ffffff;
+      display: block;
+      text-align: center;
+      font-size: 20px;
+      padding-bottom: 20px;
+      
+    }
+
+
+    .cor-fundo-footer	{
+	background: rgba(0, 0, 0, 0.8);
+
+}
+
+	footer div a img:hover{
+		
+		width: 48px;
+
+	}
+
+
+
+/* ------------------------------- BREAKPOINTS ----------------------------------------------- */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) { 
+
+       			div.foto-instagram  iframe {
+			          width: 100%;
+			          height: 340px;
+			     }
+
+
+				#fotos img {
+				 	width: 100%;
+				 	height: 250px;
+				 }
+
+				#evento img {
+				 	width: 100%;
+				 	height: 250px;
+				 }
+
+				#loja img {
+				 	width: 100%;
+				 	height: 250px;
+				 }
+
+
+				img.card-img-top.discografia {
+				 	width: 100%;
+				 	height: 350px;
+				 }
+
+
+				#loja img.card-img-top {
+				 	width: 100%;
+				 	height: 700px;
+				 }
+
+
+				  #loja img.card-img-top {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+				 #page-discografia img.card-img-top {
+				 	width: 100%;
+				 	height: 330px;
+				 }
+
+
+
+				 #evento img {
+				 	width: 100%;
+				 	height: 450px;
+				 }
+
+
+				 #show div img {
+				 	width: 100%;
+				 	height: 450px;
+				 	border-radius: 10px;
+				 }
+
+
+				 #loja img {
+				 	width: 100%;
+				 	height: 450px;
+				 }
+
+
+
+
+				div.scroll {
+					height:450px;
+					overflow: auto;
+				}
+
+
+				#galeria img, #videos iframe {
+				 	width: 100%;
+				 	height: 225px;
+				 	border-radius: 10px;
+
+				 }
+       
+        }
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+       			div.foto-instagram  iframe {
+			          width: 100%;
+			          height: 540px;
+			     }
+
+
+				#fotos img {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+				img.card-img-top.discografia {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+				  #loja img.card-img-top {
+				 	width: 100%;
+				 	height: 450px;
+				 }
+
+				 #page-discografia img.card-img-top {
+				 	width: 100%;
+				 	height: 450px;
+				 }
+
+				 #evento img {
+				 	width: 100%;
+				 	height: 500px;
+				 }
+
+				  #show div img {
+				 	width: 100%;
+				 	height: 650px;
+				 	border-radius: 10px;
+				 }
+
+				  #loja img {
+				 	width: 100%;
+				 	height: 500px;
+				 }
+
+
+				 div.scroll {
+					height:500px;
+					overflow: auto;
+				}
+
+
+
+				#galeria img, #videos iframe {
+				 	width: 100%;
+				 	height: 350px;
+				 	border-radius: 10px;
+
+				 }
+       
+       
+       
+        }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+        	     div.foto-instagram  iframe {
+			          width: 100%;
+			          height: 500px;
+			     }
+
+
+				img.card-img-top.discografia {
+				 	width: 100%;
+				 	height: 230px;
+				 }
+
+
+				 #loja img.card-img-top {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+				  #page-discografia img.card-img-top {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+
+				 #evento img {
+				 	width: 100%;
+				 	height: 350px;
+				 }
+
+				  #show div img {
+				 	width: 100%;
+				 	height: 600px;
+				 	border-radius: 10px;
+				 }
+
+				 #loja img {
+				 	width: 100%;
+				 	height: 350px;
+				 }
+
+				 div.scroll {
+					height:650px;
+					overflow: auto;
+				}
+
+
+				#galeria img, #videos iframe {
+				 	width: 100%;
+				 	height: 240px;
+				 	border-radius: 10px;
+
+				 }
+
+   
+        }
+
+
+        /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+        		div.foto-instagram  iframe {
+			          width: 100%;
+			          height: 400px;
+			     }
+
+
+				#fotos img {
+				 	width: 100%;
+				 	height: 250px;
+				 }
+
+				img.card-img-top.discografia {
+				 	width: 100%;
+				 	height: 250px;
+				 }
+
+				  #loja img.card-img-top {
+				 	width: 100%;
+				 	height: 450px;
+				 }
+
+				  #page-discografia img.card-img-top {
+				 	width: 100%;
+				 	height: 420px;
+				 }
+
+				  #evento img {
+				 	width: 100%;
+				 	height: 350px;
+				 }
+
+
+				  #show div img {
+				 	width: 100%;
+				 	height: 600px;
+				 	border-radius: 10px;
+				 }
+
+				  #loja img {
+				 	width: 100%;
+				 	height: 350px;
+				 }
+
+
+				  #galeria img, #videos iframe {
+				 	width: 100%;
+				 	height: 225px;
+				 	border-radius: 10px;
+				 }
+
+
+        
+        }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and   (max-width: 1498px){ 
+
+			   div.foto-instagram  iframe {
+			          width: 100%;
+			          height: 400px;
+			     }
+
+
+				#fotos img {
+				 	width: 100%;
+				 	height: 250px;
+				 }
+
+				img.card-img-top.discografia {
+				 	width: 100%;
+				 	height: 250px;
+				 }
+
+
+				 #loja img.card-img-top {
+				 	width: 100%;
+				 	height: 550px;
+				 }
+
+				 #page-discografia img.card-img-top {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+				  #evento img {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+				  #show div img {
+				 	width: 100%;
+				 	height: 600px;
+				 	border-radius: 10px;
+				 }
+
+				  #loja img {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+				  #galeria img, #videos iframe {
+				 	width: 100%;
+				 	height: 250px;
+				 	border-radius: 10px;
+
+				 }
+
+         
+        }
+
+                /*Extra large devices (large desktops, 1500px e superior)*/
+        @media (min-width: 1500px) {
+
+        		div.foto-instagram  iframe {
+			          width: 100%;
+			          height: 450px;
+			     }
+
+
+			    #fotos img {
+				 	width: 100%;
+				 	height: 300px;
+				 }
+
+				img.card-img-top.discografia {
+				 	width: 100%;
+				 	height: 300px;
+				 }
+
+
+
+				#loja img.card-img-top {
+				 	width: 100%;
+				 	height: 600px;
+				 }
+
+
+				 #page-discografia img.card-img-top {
+				 	width: 100%;
+				 	height: 450px;
+				 }
+
+
+				 body {
+				 	font-size: 1.3em;
+				 }
+
+				 #evento img {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+				  #show div img {
+				 	width: 100%;
+				 	height: 700px;
+				 	border-radius: 10px;
+				 }
+
+				  #loja img {
+				 	width: 100%;
+				 	height: 400px;
+				 }
+
+
+				  #galeria img, #videos iframe {
+				 	width: 100%;
+				 	height: 350px;
+				 	border-radius: 10px;
+
+				 }
+
+
+
+
+      
+        }
